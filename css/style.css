@@ -1,0 +1,705 @@
+﻿/* ========== reset padrão ============= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center2{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.center2 h1{
+	text-align: center;
+	font-size: 17px;
+	margin: 10px 20px;
+	padding: 0 2%;
+    color: #124265;
+}
+
+.center2 p{
+    text-align: center;
+    font-size: 13px;
+}
+
+header{
+    background-color: #2692d7;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.logo{
+    color: white;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.logo h4{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* =================== menu dropdown ==================   */
+
+.menu{
+    width: 80%;
+    height: auto;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    z-index: 999;
+}
+
+.menu ul li{
+    float: left;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2692d7;
+    color: white;
+    transition: 0.4s;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: #2692d7;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.menu-mobile{
+    display: none;
+}
+
+/*  preparando o menu mobile para o JS   */
+
+.menu-itens{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid #2692d7;
+    display: block;
+    opacity: 0;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+.menu-itens li{
+    list-style: none;
+}
+
+.menu-itens.show{
+    opacity: 1;
+}
+
+.menu-itens.hide{
+    opacity: 0;
+}
+
+.menu-itens a{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #2692d7;
+}
+
+.menu-itens a:hover{
+    background-color: #2692d7;
+    color: white;
+}
+
+.menu-itens ul ul li{
+   text-align: center;
+   list-style: none;
+}
+
+/* =================== SEÇÃO MAIN =========================== */
+
+section.main{
+    background-image: url('../img/oculos-casal2.jpg');
+    /*min-height: 500px;  somente no inicio para testar*/
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;  /* responsivo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* efeito Paralax  */
+}
+
+.main-cta{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.main-cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main-cta p{
+    color: #16507b;
+    font-size: 19px;
+    margin: 30px 0;
+}
+
+
+/*========== SLIDER BANNER =========*/
+
+.slider{
+	position: relative;
+	width: 100%;
+	max-width: 1100px;
+	height: 450px;
+	max-height: 450px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.slider img{
+	display: none;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.bullets-nav{
+	position: absolute;
+	left: 50%;
+	bottom:10px;
+	width: 100%;
+	z-index: 3;
+	text-align: center;
+	transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+}
+
+.bullets-nav span{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 8px;
+	background-color: #ccc;
+	cursor: pointer;
+	margin:0 20px;
+}
+/* ============= FIM DO SLIDER =====  */
+
+/* ===================  SERVIÇOS ===================== */
+
+.services h2{
+    width: 980px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;  /* responsivo   */
+    padding: 30px 0;
+}
+
+.dif-single{
+    border-radius: 10px;
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 20px 20px;
+}
+
+.dif-single img{
+    color: #124265;
+    width: 50px;
+    height: 50px;
+}
+
+.dif-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.dif-single p{
+    color: #124265;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*  ===================== SEÇÃO SOBRE  =================    */
+
+section.sobre{
+    padding: 40px 0;
+    background-color: #2692d7;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+
+.chamada-sobre h2{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 50px;
+}
+
+.chamada-sobre p{
+    font-size: 16px;
+    color: #16507b;
+    margin-bottom: 30px;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: white;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.conteudo-sobre img{
+    width: 450px;
+    height: auto;
+    margin-right: 25px;
+}
+
+section.cartoes{
+    width: 100%;
+}
+
+section.cartoes .cartoes-img{
+    width: 100%;                      
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
+/*  ================ SEÇÃO SOBRE 2 ==============   */
+
+section.sobre2{
+    padding: 40px 0;
+}
+
+.sobre2 img{
+    width: 50%;
+}
+
+.sobre2-img img{
+    max-width: 100%;
+}
+
+.sobre2-conteudo{
+    width: 50%;
+    padding: 0 30px;
+}
+
+.sobre2-conteudo h2{
+    color: #124265;
+    margin-bottom: 20px;
+}
+
+.sobre2-conteudo p{
+    color: #16507b;
+    font-size: 16px;
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+
+/* ====setando tamanho das imagens do slider===*/
+
+section.clientes-slider{
+	padding: 60px 0;
+}
+
+section.clientes-slider img{
+	max-width: 100%;
+}
+
+/*===================SLICK SLIDER=================*/
+
+.slick-dotted ul{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin-top:10px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #0c3f8a;
+	color: #0c3f8a;
+}
+
+.slick-slide:focus { outline: none; }
+
+
+/* ================== SEÇÃO DE CONTATO ==================== */
+
+.social{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social h2{
+    font-size: 35px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.social i{
+    color: white;
+    width: 35px;
+}
+
+section.sessao4{
+	background-color: #2692d7;
+	padding: 50px 0;
+}
+
+.container{
+	max-width: 1100px;
+    height: 800px;
+	margin:0 auto;
+}
+
+.form{
+	float: left;
+	width: 50%;
+	color: white;
+	padding-left: 10px;
+}
+
+.form h2{
+	font-size: 35px;
+	font-weight: 300;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.form p{
+	font-size: 20px;
+	font-weight: 300;
+	max-width: 400px;
+	padding-right: 10px;
+}
+
+.form form{
+	margin-top: 15px;
+}
+
+.form form input[type=text]{
+	width: 90%;
+	max-width: 480px;
+	margin-top: 8px;
+	height: 58px;
+	padding-left: 8px;
+	line-height: 58px;
+	border: 1px solid rgb(200,200,200);
+    border-radius: 8px; 
+}
+
+.form form textarea{
+	width: 90%;
+	max-width: 480px;
+	margin-top: 8px;
+	padding: 15px;
+	border: 1px solid rgb(200,200,200);
+	height: 160px;
+    border-radius: 8px;
+}
+
+.form form input[type=submit]{
+	border: 0;
+	background-color: #0c3f8a;
+	width: 165px;
+	height: 44px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 30px;
+}
+
+.form form input[type=submit]:hover{
+    background-color: white;
+    color: #0c3f8a;
+    transition: 0.4s;
+}
+
+.map-wraper{
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+	
+}
+
+.map-wraper h2{
+	font-size: 35px;
+	font-weight: 300;
+	color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.map-wraper p{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.map-wraper3{
+	margin-top: 10px;
+	width: 100%;
+	max-width: 480px;
+	position: relative;
+}
+
+.map-wraper2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.map{
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	background: white;
+	border: 5px solid rgb(200,200,200);
+}
+
+
+/*  ============= BOTÃO VOLTAR AO TOPO  =========== */
+#btntop{
+	position: fixed;
+	bottom: 70px;
+	right: 20px;
+	height: 50px;
+	width: 50px;
+	color: #ccc;
+	background: #124265;
+	border: none;
+	border-radius: 50vh;
+	display: none;
+	scroll-behavior: smooth;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+#btntop:hover{
+    background: #1e5a88;
+}
+
+/*==================  SEÇÃO FOOTER  ==============*/
+footer{
+	margin-top: 3px;
+    margin-bottom: 3px;
+	padding: 10px 2%;
+	background: #2692d7;
+    display: flex;
+}
+
+footer p{
+    display: flex;
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.code-trust p{
+	align-items: center;
+}
+
+/*  ==============  conteúdo responsivo ===========  */
+
+@media screen and (max-width: 768px){
+    
+    .logo h2{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .slider{
+        display: none;
+    }
+    .mask span {
+        left: 80px;
+    }
+    .proj-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .dif-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-sobre p{
+        width: 100%;
+        margin: 10px 10px;
+    }
+    .sobre2 img{
+        width: 100%;
+    }
+    .sobre2-conteudo{
+        width: 100%;
+        margin: 10px 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        width: 50%;
+    }
+    .menu-mobile{
+        width: 50%;
+        display: block;
+        text-align: right;
+    }
+    .menu-mobile img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .menu-mobile a{
+        text-align: left;
+    }
+
+    .services h2{
+        width: 450px;
+    }
+    .cartoes img{
+        width: 95%;
+    }
+    .sobre2-img{
+        width: 50%;
+    }
+    .sobre2-conteudo h2{
+	font-size: 25pt;
+    }
+    .conquista-single p{
+        font-size: 17pt;
+    }
+    
+    section.sessao4 .container{
+		text-align: center;
+        height: 1200px;
+	}
+
+	.form{
+		float: none;
+		width: 100%;
+	}
+
+	.form p{
+		display: inline-block;
+		float: none;
+	}
+
+	.map-wraper{
+		float: none;
+		width: 100%;
+		padding:0 8%;
+		margin-top:40px;
+	}
+
+	.map-wraper3{
+		margin-top:10px;
+		width: 100%;
+		padding-top: 100%;
+		display: inline-block;
+		max-width: none;
+		position: relative;
+	}
+
+	.map-wraper2{
+		position: absolute;
+		left: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		padding-top:0;
+	}
+
+    .map iframe{
+        width: 350px;
+        height: 330px;
+    }
+    
+}
