@@ -710,5 +710,8 @@ footer a{
 	#btntop{
 	  right: 100px;
 	}
+	footer p{
+	  font-size: 12px;
+	}
     
 }
