@@ -704,5 +704,8 @@ footer a{
         width: 350px;
         height: 330px;
     }
+	section.clientes-slider img{
+	max-width: 80%;
+}
     
 }
