@@ -701,8 +701,8 @@ footer a{
 	}
 
     .map iframe{
-        width: 350px;
-        height: 330px;
+        width: 250px;
+        height: 250px;
     }
 	section.clientes{
 	max-width: 80%;
