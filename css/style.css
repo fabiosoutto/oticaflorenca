@@ -1,9 +1,9 @@
-﻿/* ========== reset padrão ============= */
+/* ========== reset padrão ============= */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .center{
@@ -22,7 +22,7 @@
 
 .center2 h1{
 	text-align: center;
-	font-size: 17px;
+	font-size: 20px;
 	margin: 10px 20px;
 	padding: 0 2%;
     color: #124265;
@@ -156,7 +156,6 @@ header{
 
 section.main{
     background-image: url('../img/oculos-casal2.jpg');
-    /*min-height: 500px;  somente no inicio para testar*/
     padding: 70px 0;
     background-position: center;
     background-size: cover;  /* responsivo */
@@ -169,18 +168,6 @@ section.main{
     margin: 20px 0;
     text-align: center;
 }
-
-.main-cta h2{
-    color: #16507b;
-    font-size: 40px;
-}
-
-.main-cta p{
-    color: #16507b;
-    font-size: 19px;
-    margin: 30px 0;
-}
-
 
 /*========== SLIDER BANNER =========*/
 
@@ -259,7 +246,7 @@ section.main{
 .dif-single h2{
     color: #124265;
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .dif-single p{
@@ -308,7 +295,7 @@ section.sobre{
 }
 
 .conteudo-sobre img{
-    width: 450px;
+    width: 350px;
     height: auto;
     margin-right: 25px;
 }
@@ -427,8 +414,8 @@ section.sessao4{
 }
 
 .container{
-	max-width: 1100px;
-    height: 800px;
+	max-width: 950px;
+    height: 900px;
 	margin:0 auto;
 }
 
@@ -436,7 +423,12 @@ section.sessao4{
 	float: left;
 	width: 50%;
 	color: white;
-	padding-left: 10px;
+	padding-left: 50px;
+}
+
+.form img{
+    width: 450px;
+    height: auto;
 }
 
 .form h2{
@@ -495,6 +487,25 @@ section.sessao4{
     transition: 0.4s;
 }
 
+.agendar{
+	border: 0;
+	background-color: #0c3f8a;
+	width: 165px;
+	height: 44px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.agendar:hover{
+    background-color: white;
+    color: #0c3f8a;
+    transition: 0.4s;
+}
+
 .map-wraper{
 	float: left;
 	width: 50%;
@@ -544,12 +555,12 @@ section.sessao4{
 /*  ============= BOTÃO VOLTAR AO TOPO  =========== */
 #btntop{
 	position: fixed;
-	bottom: 70px;
-	right: 20px;
+	bottom: 100px;
+	right: 100px;
 	height: 50px;
 	width: 50px;
 	color: #ccc;
-	background: #124265;
+	background: #0c3f8a;
 	border: none;
 	border-radius: 50vh;
 	display: none;
@@ -559,8 +570,35 @@ section.sessao4{
 }
 
 #btntop:hover{
-    background: #1e5a88;
+    background: white;
+    color: #0c3f8a;
 }
+
+/*==================  SEÇÃO FOOTER 1 ==============*/
+footer1{
+	/*margin-top: 3px;
+    margin-bottom: 3px;
+	padding: 25px 2%;*/
+	background: #2692d7;
+    display: flex;
+}
+
+footer1 p{
+    display: flex;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
+footer1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.code-trust p{
+	align-items: center;
+}
+
 
 /*==================  SEÇÃO FOOTER  ==============*/
 footer{
@@ -589,54 +627,77 @@ footer a{
 
 /*  ==============  conteúdo responsivo ===========  */
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 574px){
     
     .logo h2{
         font-size: 30px;
         margin-left: 20px;
     }
+
     .slider{
         display: none;
     }
+
     .mask span {
         left: 80px;
     }
+
     .proj-single{
         width: 100%;
         margin-bottom: 20px;
     }
+
     .dif-single{
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .conteudo-sobre{
+        width: 100%;
+        margin: 10px 10px;
+        align-items: center;
+    }
+
     .conteudo-sobre p{
         width: 100%;
         margin: 10px 10px;
     }
+
+    .conteudo-sobre img{
+        width: 90%;
+    }
+
     .sobre2 img{
         width: 100%;
     }
+
     .sobre2-conteudo{
         width: 100%;
         margin: 10px 10px;
+        align-items: center;
     }
+
     .menu{
         display: none;
     }
+
     .logo{
         width: 50%;
     }
+
     .menu-mobile{
         width: 50%;
         display: block;
         text-align: right;
     }
+
     .menu-mobile img{
         width: 30px;
         height: 30px;
         cursor: pointer;
         margin-top: 10px;
     }
+
     .menu-mobile a{
         text-align: left;
     }
@@ -644,30 +705,32 @@ footer a{
     .services h2{
         width: 450px;
     }
+
     .cartoes img{
         width: 95%;
     }
+
     .sobre img{
-	width: 80%;
-     }
+	width: 100%;
+    }
+
     .sobre2-img{
         width: 50%;
     }
+
     .sobre2-conteudo h2{
 	font-size: 25pt;
     }
-    .conquista-single p{
-        font-size: 17pt;
-    }
-    
+
     section.sessao4 .container{
 		text-align: center;
-        height: 1200px;
+        height: 1600px;
 	}
 
 	.form{
 		float: none;
 		width: 100%;
+        padding-left: 10px;
 	}
 
 	.form p{
@@ -704,14 +767,21 @@ footer a{
         width: 250px;
         height: 250px;
     }
+
 	section.clientes .center2{
-	max-width: 80%;
-        }
+	    max-width: 50%;
+    }
+
 	#btntop{
-	  right: 100px;
+	  right: 20px;
 	}
+
+    a.whats{
+        right: 20px;
+    }
+
 	footer p{
-	  font-size: 12px;
+	  font-size: 13px;
 	}
     
 }
