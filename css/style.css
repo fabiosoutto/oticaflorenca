@@ -553,6 +553,7 @@ section.sessao4{
 
 
 /*  ============= BOTÃO VOLTAR AO TOPO  =========== */
+
 #btntop{
 	position: fixed;
 	bottom: 100px;
@@ -575,6 +576,7 @@ section.sessao4{
 }
 
 /*==================  SEÇÃO FOOTER 1 ==============*/
+
 footer1{
 	/*margin-top: 3px;
     margin-bottom: 3px;
@@ -599,8 +601,8 @@ footer1 a{
 	align-items: center;
 }
 
-
 /*==================  SEÇÃO FOOTER  ==============*/
+
 footer{
 	margin-top: 3px;
     margin-bottom: 3px;
@@ -765,7 +767,7 @@ footer a{
 
     .map iframe{
         width: 250px;
-        height: 250px;
+        height: 230px;
     }
 
 	section.clientes .center2{
