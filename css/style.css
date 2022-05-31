@@ -773,6 +773,10 @@ footer a{
 	section.clientes .center2{
 	    max-width: 50%;
     }
+	.form img{
+           width: 100%;
+           height: auto;
+    }
 
 	#btntop{
 	  right: 20px;
