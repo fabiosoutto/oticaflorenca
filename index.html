@@ -7,7 +7,9 @@
     <meta name="keywords" content="ótica,óculos,armações,lentes">
     <meta name="author" content="Fabio Soutto Desenvolvedor Web" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Roboto&display=swap');
+    </style>
     <link href="css/style.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,7 +26,7 @@
 </head>
 <body>
 
-    <header id="home">
+    <header id="home" class="header">
         <div class="center">
             <div class="logo">
                 <a href="index.html">
@@ -37,7 +39,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Produtos</a>
                         <ul>
-                            <li><a href="">Armações Masculinas</a></li>
+                            <li><a href="masculino.html">Armações Masculinas</a></li>
                             <li><a href="">Armações Femininas</a></li>
                             <li><a href="">Armações Infantis</a></li>
                         </ul>
@@ -57,7 +59,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Produtos</a>
                             <ul>
-                                <li><a href="#">Armações Masculinas</a></li>
+                                <li><a href="masculino.html">Armações Masculinas</a></li>
                                 <li><a href="#">Armações Femininas</a></li>
                                 <li><a href="#">Armações Infantis</a></li>
                             </ul>
@@ -161,6 +163,7 @@
 
     <section id="videos" class="videos">
 		<div class="container-videos">
+            <h2>Vídeos - Saiba mais!</h2>
 			<div class="box-video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/T3Tpv6PNjD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div><!--box-video-->
@@ -180,7 +183,7 @@
         </div><!--cartoes-img-->
     </section><!--cartoes-->
 
-    <section id="contato" class="sessao4">
+    <section id="contato" class="contato">
         <div class="container">
             <div class="social">
                 <h2>Conecte-se conosco</h2>
@@ -209,7 +212,7 @@
                 <h2>Solicite Atendimento Domiciliar</h2>
                 <p>Conte com nosso serviço diferenciado para sua comodidade,<br /> entre em contato e verifique a disponibilidade.</p>
                 <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5551992094002" target="_blank">
-                <button class="agendar">Quero Agendar</button></a>
+                <button class="btn-agendar">Quero Agendar</button></a>
                 <div class="map-wraper3">
                     <div class="map-wraper2">
                         <div id="mapa" class="map">
@@ -218,21 +221,21 @@
                     </div><!--map-wraper2-->
                 </div><!--map-wraper-3-->
             </div><!--map-wraper-->
+            <div class="clear"></div>
         </div><!--container-->
-        <div class="clear"></div>
     </section><!--sessao4-->
 
-    <footer1>
+    <footer1 class="footer1">
         <div class="center">
-            <p>Ótica Florença - CNPJ: 23.398.421/0001-18 |</p>
+            <p>Ótica Florença - CNPJ: 23.398.421/0001-18</p>
             <div class="tecnico">
                 <p>&nbsp;Resp. Técnico - Mariano Guglielmi</p>
-            </div><!--code-trust-->
+            </div><!--tecnico-->
             <div class="clear"></div>
         </div><!--center-->
     </footer1>
 
-    <footer>
+    <footer class="footer">
         <div class="center">
             <p>&copy; 2022 Todos os direitos reservados | &nbsp; </p>
             <div class="code-trust">
@@ -240,11 +243,13 @@
             </div><!--code-trust-->
             <div class="clear"></div>
         </div><!--center-->
+    </div><!--container-->
     </footer>
 
+
     <button onclick="backToTop()" id="btntop">^</button>
-     <div class="clear"></div>
-	
+    <div class="clear"></div>
+
     <script src="./js/script.js"></script>
     <script src="./js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
