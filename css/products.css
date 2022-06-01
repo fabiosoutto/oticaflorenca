@@ -1,40 +1,31 @@
 /* =============== página PRODUTOS =================  */
 
-h2 .text {
-    width: 600px;
-    font-size: 190px;
-    line-height: 1.86;
-    letter-spacing: -0.02em;
+.center-galery{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.main-cta h2{
     color: white;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.center .projetos{
-    display: flex;
-    flex-wrap: wrap;  /* responsivo   */
-    padding: 30px 0;
+.main-cta p{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.proj-single{
-    border-radius: 10px;
-    background-color: white;
-    width: 23%;
-    margin-right: 2%;
-    padding: 20px 20px;
-    margin-bottom: 10px;
+.galeria{
+    background-color: #2692D7;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.proj-single video{
-    max-width: 100%;
-}
 
-.proj-single h2{
-    color: #124265;
-    margin: 10px 0;
-    font-size: 16px;
-}
 
-.proj-single p{
-    color: #124265;
-    font-size: 14px;
-    line-height: 25px;
-}
