@@ -87,8 +87,8 @@
 @media screen and (max-width: 768px) {
 
     .container > .row-galery > .card_img-galery{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         overflow: hidden;
         margin: 25px;
     }
