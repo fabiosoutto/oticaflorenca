@@ -27,5 +27,14 @@
     padding-bottom: 30px;
 }
 
+/* ======= CONTEÚDO RESPONSIVO =======  */
 
+@media screen and (max-width: 768px) {
+
+    .center-galery{
+        max-width: 768px;
+        
+    }
+    
+}
 
