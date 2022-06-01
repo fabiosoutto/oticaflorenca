@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, Arial, Helvetica, sans-serif, sans-serif;
+    font-family: 'Eczar', serif, 'Roboto', sans-serif;
 }
 
 .center{
@@ -37,23 +37,6 @@ header{
     background-color: #2692d7;
     padding: 20px 0;
     border-bottom: 1px solid rgb(200,200,200);
-}
-
-.logo{
-    color: white;
-}
-
-.logo h2{
-    font-weight: normal;
-    font-size: 24px;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.logo h4{
-    font-weight: normal;
-    font-size: 15px;
-    text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 /* =================== menu dropdown ==================   */
@@ -318,9 +301,9 @@ section.videos{
 	padding: 10px 0;
 }
 
-.container-videos{
-	max-width: 1280px;
-    height: 350px;
+.videos h2{
+    text-align: center;
+    color: #124265;
 }
 
 section.videos .box-video{
@@ -360,7 +343,7 @@ section.clientes-slider img{
 }
 
 .slick-dotted li{
-	display: inline-block;
+	display: none;
 	margin: 0 7px;
 }
 
@@ -392,7 +375,7 @@ li.slick-active button{
 .social{
     padding: 30px 0;
     text-align: center;
-    height: 200px;
+    height: 170px;
 }
 
 .social h2{
@@ -407,13 +390,13 @@ li.slick-active button{
     transition: 0.4s;
 }
 
-section.sessao4{
+section.contato{
 	background-color: #2692d7;
-	padding: 50px 0;
+	/*padding: 50px 0;*/
 }
 
 .container{
-	max-width: 1280px;
+	max-width: 1100px;
     height: 980px;
 	margin:0 auto;
 }
@@ -486,7 +469,7 @@ section.sessao4{
     transition: 0.4s;
 }
 
-.agendar{
+.btn-agendar{
 	border: 0;
 	background-color: #0c3f8a;
 	width: 165px;
@@ -499,7 +482,7 @@ section.sessao4{
     margin-bottom: 20px;
 }
 
-.agendar:hover{
+.btn-agendar:hover{
     background-color: white;
     color: #0c3f8a;
     transition: 0.4s;
@@ -509,7 +492,6 @@ section.sessao4{
 	float: left;
 	width: 50%;
 	padding: 0 10px;
-	
 }
 
 .map-wraper h2{
@@ -562,7 +544,7 @@ section.sessao4{
 	background: #0c3f8a;
 	border: none;
 	border-radius: 50vh;
-	display: none;
+	/*display: none;*/
 	scroll-behavior: smooth;
     cursor: pointer;
     font-size: 35px;
@@ -574,22 +556,24 @@ section.sessao4{
 }
 
 /*==================  SEÇÃO FOOTER 1 ==============*/
+
 footer1{
 	margin-top: 3px;
     margin-bottom: 3px;
 	padding: 10px 2%;
 	background: #2692d7;
     display: flex;
+    text-align: center;
 }
 
 footer1 p{
-    display: flex;
 	color: white;
 	font-size: 17px;
 }
 
 footer1 .tecnico p{
-	align-items: center;
+	text-align: center;
+    color: white;
 }
 
 
@@ -618,7 +602,7 @@ footer a{
 	align-items: center;
 }
 
-/*  ==============  conteúdo responsivo ===========  */
+/*  ==============  CONTEÚDO RESPONSIVO ===========  */
 
 @media only screen and (max-width: 768px){
     
@@ -660,16 +644,6 @@ footer a{
         width: 90%;
     }
 
-    .sobre2 img{
-        width: 100%;
-    }
-
-    .sobre2-conteudo{
-        width: 100%;
-        margin: 10px 10px;
-        align-items: center;
-    }
-
     .menu{
         display: none;
     }
@@ -709,7 +683,7 @@ footer a{
 
     section.videos{
 		text-align: center;
-        height: 700px;
+        height: auto;
 	}
 
 	section.videos .box-video{
@@ -719,7 +693,11 @@ footer a{
 		padding-top: calc(100% * 0.6);
 	}
 
-    section.sessao4 .container{
+    section.contato{
+		text-align: center;
+	}
+
+    section.contato .container{
 		text-align: center;
         height: 1650px;
 	}
@@ -778,8 +756,14 @@ footer a{
 	  right: 120px;
 	}
 
-	footer p{
+    .footer1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+	.footer p{
 	  font-size: 13px;
+      text-align: center;
 	}
     
 }
