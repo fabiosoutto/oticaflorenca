@@ -33,7 +33,7 @@
 
 .modal-galery > .modal_content-galery > #modal_img-galery{
     width: 65vw;
-    transform: scale(0);
+    /*transform: scale(0);*/
     transition: all linear .3s;
 }
 
