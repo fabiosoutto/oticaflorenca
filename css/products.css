@@ -37,7 +37,7 @@
     }
     
     .main-cta h2, p{
-    width: 250px;
+    width: 300px;
     height: auto;
     }
     
@@ -46,10 +46,10 @@
         text-align: center;
     }
 
-	.footer p{
-	  font-size: 13px;
-      text-align: center;
-	}
+    .footer p{
+        font-size: 13px;
+        text-align: center;
+    }
     
 }
 
