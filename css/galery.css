@@ -85,10 +85,15 @@
 /* ======= CONTEÚDO RESPONSIVO =======  */
 
 @media screen and (max-width: 768px) {
+    
+    .container > .row-galery{
+        width: 350px;
+        height: auto;
+    }
 
     .container > .row-galery > .card_img-galery{
-        width: 200px;
-        height: 200px;
+        width: 350px;
+        height: auto;
         overflow: hidden;
         margin: 25px;
     }
