@@ -558,10 +558,8 @@ section.contato{
 /*==================  SEÇÃO FOOTER 1 ==============*/
 
 footer1{
-	margin-top: 3px;
-    margin-bottom: 3px;
-	padding: 10px 2%;
-	background: #0c3f8a;
+    padding-top: 1.5rem;
+    background: #0c3f8a;
     display: flex;
     text-align: center;
 }
@@ -572,17 +570,14 @@ footer1 p{
 }
 
 footer1 .tecnico p{
-	text-align: center;
+    text-align: center;
     color: white;
 }
 
 
 /*==================  SEÇÃO FOOTER  ==============*/
 footer{
-	margin-top: 3px;
-    margin-bottom: 3px;
-	padding: 10px 2%;
-	background: #0c3f8a;
+    background: #0c3f8a;
     display: flex;
 }
 
@@ -603,7 +598,7 @@ footer a:hover{
 }
 
 .code-trust p{
-	align-items: center;
+    align-items: center;
 }
 
 /*  ==============  CONTEÚDO RESPONSIVO ===========  */
