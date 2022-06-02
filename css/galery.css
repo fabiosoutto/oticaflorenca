@@ -86,6 +86,10 @@
 
 @media screen and (max-width: 768px) {
     
+    .galeria .container{
+        padding-left: 0;
+    }
+    
     .container > .row-galery{
         width: 350px;
         height: auto;
