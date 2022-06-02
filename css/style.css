@@ -561,14 +561,14 @@ footer1{
 	margin-top: 3px;
     margin-bottom: 3px;
 	padding: 10px 2%;
-	background: #2692d7;
+	background: #0c3f8a;
     display: flex;
     text-align: center;
 }
 
 footer1 p{
 	color: white;
-	font-size: 17px;
+	font-size: 18px;
 }
 
 footer1 .tecnico p{
@@ -582,20 +582,24 @@ footer{
 	margin-top: 3px;
     margin-bottom: 3px;
 	padding: 10px 2%;
-	background: #2692d7;
+	background: #0c3f8a;
     display: flex;
 }
 
 footer p{
     display: flex;
 	color: white;
-	font-size: 14px;
+	font-size: 15px;
 	font-style: italic;
 }
 
 footer a{
     text-decoration: none;
     color: white;
+}
+
+footer a:hover{
+    color: #ffcc00;
 }
 
 .code-trust p{
@@ -753,18 +757,19 @@ footer a{
         height: auto;
     }
 
-	#btntop{
-	  right: 20px;
+    #btntop{
+	  right: 15px;
+      bottom: 70px;
 	}
 
-    .footer1{
-        font-size: 35px;
+    .footer1 p{
+        font-size: 16px;
         text-align: center;
     }
 
-	.footer p{
-	  font-size: 13px;
-      text-align: center;
-	}
+    .footer p{
+	 font-size: 15px;
+      	 text-align: center;
+    }
     
 }
