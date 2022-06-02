@@ -553,6 +553,7 @@ section.contato{
 #btntop:hover{
     background: white;
     color: #0c3f8a;
+    transition: all 0.4s;	
 }
 
 /*==================  SEÇÃO FOOTER 1 ==============*/
