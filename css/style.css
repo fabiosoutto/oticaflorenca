@@ -544,10 +544,10 @@ section.contato{
 	background: #0c3f8a;
 	border: none;
 	border-radius: 50vh;
-	/*display: none;*/
+	border: 1px solid #fff;
 	scroll-behavior: smooth;
-    cursor: pointer;
-    font-size: 35px;
+    	cursor: pointer;
+    	font-size: 35px;
 }
 
 #btntop:hover{
