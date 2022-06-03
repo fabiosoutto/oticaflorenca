@@ -1,0 +1,207 @@
+/* =========== PÁGINA NOSSAS-LENTES =========  */
+
+.center-galery{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-cta h2{
+    color: white;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.main-cta p{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* ======= seção conteúdo ========*/
+
+.lens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marca{
+    width: 30%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.marca img{
+    width: 250px;
+}
+
+.marca h2{
+    font-size: 2rem;
+    color: #124265;
+    margin: 20px 0 20px 0;
+}
+
+.marca p{
+    font-size: 0.9rem;
+    color: #124265;
+}
+
+.gif img{
+ -webkit-mask-image: url(../img/glasses.png);
+  mask-image: url(../img/glasses.png);
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;  
+}
+
+
+.video{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.video h1{
+    font-size: 2rem;
+    color: #124265;
+    margin: 2rem 0 2rem 0;
+}
+
+.video p{
+    font-size: 1.2rem;
+    color: #124265;
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;  /* responsivo   */
+    padding: 2rem 0;
+}
+
+.infos-single{
+    border-radius: 0.5rem;
+    background-color: #124265;
+    width: 30%;
+    margin-right: 3%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 3%;
+}
+
+.infos-single h2{
+    color: white;
+    margin: 0.6rem 0;
+    font-size: 1.7rem;
+}
+
+.infos-single p{
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.sun{
+    width: 50%;
+}
+
+.sun p{
+    font-size: 0.9rem;
+    color: #124265; 
+}
+
+.tratamentos{
+    width: 50%;
+}
+
+.tratamentos h2{
+    font-size: 1rem;
+    color: #124265;
+    margin: 20px 0 20px 0;
+}
+
+
+/* ======== RESPONSIVO ========  */
+
+@media only screen and (max-width: 768px){
+    
+    
+    .marca{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .marca img{
+        width: 100%;
+    }
+
+    .marca .gif{
+        width: 100%;
+    }
+
+    .marca h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .marca p{
+        text-align: justify;
+    }
+
+    .video video{
+        width: 100%;
+    }
+    
+    .video{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .video h1{
+        font-size: 1rem;
+        margin: 1.5rem 0;
+    }
+    
+    .video p{
+        font-size: 1rem;
+    }
+
+    .infos{
+        padding: 0;
+    }
+    
+    .infos-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .sun{
+        width: 100%;
+    }
+
+    .sun img{
+        width: 10rem;
+        line-height: 100vw;
+    }
+    
+    .sun p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    .tratamentos{
+        width: 100%;
+    }
+    
+    .tratamentos h2{
+        font-size: 1rem;
+    }
+    
+}
