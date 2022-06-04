@@ -45,9 +45,19 @@
     margin: 20px 0 20px 0;
 }
 
-.marca p{
-    font-size: 0.9rem;
+.marca h3{
+    font-size: 1.5rem;
     color: #124265;
+    margin: 20px 0 20px 0;
+}
+
+.marca p{
+    font-size: 1rem;
+    color: #124265;
+}
+
+.marca .text{
+    font-size: 1.3rem;
 }
 
 .gif{
@@ -70,6 +80,10 @@
     font-size: 2rem;
     color: #124265;
     margin: 2rem 0 2rem 0;
+}
+
+.video .uv{
+    font-size: 1.7rem;
 }
 
 .video p{
@@ -113,7 +127,7 @@
 }
 
 .sun p{
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     color: #124265; 
 }
 
@@ -122,9 +136,26 @@
 }
 
 .tratamentos h2{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #124265;
     margin: 20px 0 20px 0;
+}
+
+.tratamentos .uv{
+    width: 150px;
+    padding-left: 50px;
+    
+    
+}
+
+.tratamentos .fast{
+    width: 220px;
+    padding-left: 30px;
+}
+
+.tratamentos .sun-logo{
+    width: 130px;
+    padding-left: 60px;
 }
 
 
@@ -138,13 +169,19 @@
         margin-top: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+        text-align: center;
     }
     
     .marca img{
-        width: 100%;
+        width: 180px;
     }
 
     .marca .gif{
+        width: 60%;
+        text-align: center;
+    }
+
+    .marca > img > .tabela{
         width: 100%;
     }
 
@@ -176,6 +213,10 @@
         font-size: 1rem;
     }
 
+    .video img{
+        width: 100%;
+    }
+
     .infos{
         padding: 0;
     }
@@ -187,6 +228,7 @@
     
     .sun{
         width: 100%;
+        text-align: center;
     }
 
     .sun img{
@@ -201,8 +243,19 @@
     
     .tratamentos{
         width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
     }
     
+    .tratamentos .uv{
+        padding-left: 0;
+    }
+
+    .tratamentos .fast{
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+
     .tratamentos h2{
         font-size: 1rem;
     }
