@@ -36,6 +36,7 @@
 
 .marca img{
     width: 250px;
+    margin-bottom: 25px;
 }
 
 .marca h2{
@@ -50,13 +51,12 @@
 }
 
 .gif{
- width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 100% 100% 100% 100%;
-    box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%); 
+    box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
 }
-
 
 .video{
     width: 70%;
@@ -106,6 +106,10 @@
 
 .sun{
     width: 50%;
+}
+
+.sun img{
+    width: 250px;
 }
 
 .sun p{
