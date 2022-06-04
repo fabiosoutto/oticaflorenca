@@ -49,13 +49,12 @@
     color: #124265;
 }
 
-.gif img{
- -webkit-mask-image: url(../img/glasses.png);
-  mask-image: url(../img/glasses.png);
-  -webkit-mask-size: 100%;
-  mask-size: 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;  
+.gif{
+ width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%); 
 }
 
 
