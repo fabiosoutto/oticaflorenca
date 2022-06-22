@@ -68,12 +68,43 @@
     box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
 }
 
+.gif2{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    object-fit: cover;
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
+}
+
 .video{
     width: 70%;
     height: auto;
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+.infos-single > .bolinha1{
+    width: 255px;
+    height: 255px;
+    background: url(../img/optview/bolinha-defaut.png) no-repeat;
+    transition: 0.5s;
+}
+
+.infos-single > .bolinha1:hover{
+    background: url(../img/optview/bolinha-hover.png) no-repeat;
+}
+
+.infos-single > .bolinha2{
+    width: 255px;
+    height: 255px;
+    background: url(../img/optview/Group-864.png) no-repeat;
+    transition: 0.5s;
+}
+
+.infos-single > .bolinha2:hover{
+    background: url(../img/optview/Group-865.webp) no-repeat;
 }
 
 .video h1{
@@ -119,7 +150,8 @@
 }
 
 .sun{
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 .sun img{
@@ -131,37 +163,6 @@
     color: #124265; 
 }
 
-.tratamentos{
-    width: 50%;
-}
-
-.tratamentos h2{
-    font-size: 1.3rem;
-    color: #124265;
-    margin: 20px 0 20px 0;
-}
-
-.tratamentos .uv{
-    width: 120px;
-    padding-left: 20px;
-    
-    
-}
-
-.tratamentos .fast{
-    width: 150px;
-    padding-left: 30px;
-}
-
-.tratamentos .sun-logo{
-    width: 150px;
-    padding-left: 20px;
-}
-
-.tratamentos .suprema{
-    width: 150px;
-    padding-left: 20px;
-}
 
 /* ===== página suprema =====  */
 
@@ -279,6 +280,10 @@
 
     .marca p{
         text-align: justify;
+    }
+
+    .gif2{
+        margin: 0;
     }
 
     .video video{

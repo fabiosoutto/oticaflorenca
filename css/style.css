@@ -223,8 +223,8 @@ section.main{
 
 .dif-single img{
     color: #124265;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: auto;
 }
 
 .dif-single h2{
