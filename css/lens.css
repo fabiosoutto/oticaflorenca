@@ -85,6 +85,10 @@
     padding-bottom: 3rem;
 }
 
+.video img{
+    padding-bottom: .5rem;
+}
+
 .infos-single > .bolinha1{
     width: 255px;
     height: 255px;
