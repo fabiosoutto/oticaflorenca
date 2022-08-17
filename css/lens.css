@@ -39,6 +39,30 @@
     margin-bottom: 25px;
 }
 
+.marca-ocup img {
+    width: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ocup  img {
+    width: 540px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ocup h2 {
+    font-size: 2rem;
+    color: #124265;
+    margin: 20px 0 20px 0;
+}
+
+.ocup p {
+    font-size: 1rem;
+    color: #124265;
+}
+
+
 .marca h2{
     font-size: 2rem;
     color: #124265;
@@ -286,6 +310,19 @@
         text-align: justify;
     }
 
+    .ocup {
+        width: 100%;
+    }
+
+    .ocup img{
+        width: 95%;
+    }
+
+    .ocup h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
     .gif2{
         margin: 0;
     }
