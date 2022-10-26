@@ -1,12 +1,12 @@
 ﻿﻿/* ========== reset padrão ============= */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Eczar', serif, 'Roboto', sans-serif;
 }
 
-.center{
+.center {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 2%;
@@ -15,53 +15,55 @@
 }
 
 
-.center2{
+.center2 {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 2%;
 }
 
-.center2 h1{
-	text-align: center;
-	font-size: 20px;
-	margin: 10px 20px;
-	padding: 0 2%;
+.center2 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 20px;
+    padding: 0 2%;
     color: #124265;
 }
 
-.center2 p{
+.center2 p {
     text-align: center;
     font-size: 13px;
 }
 
-header{
+header {
     background-color: #1073d0;
     padding: 20px 0;
-    border-bottom: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-.navbar-nav a{
+.navbar-nav a {
     color: white;
     background: #1073d0;
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     color: #1073d0;
     background: white;
 }
 
 /* =================== SEÇÃO MAIN =========================== */
 
-section.main{
+section.main {
     background-image: url('../img/oculos-casal2.jpg');
     padding: 70px 0;
     background-position: center;
-    background-size: cover;  /* responsivo */
+    background-size: cover;
+    /* responsivo */
     background-repeat: no-repeat;
-    background-attachment: fixed;  /* efeito Paralax  */
+    background-attachment: fixed;
+    /* efeito Paralax  */
 }
 
-.main-cta{
+.main-cta {
     width: 100%;
     margin: 20px 0;
     text-align: center;
@@ -69,65 +71,67 @@ section.main{
 
 /*========== SLIDER BANNER =========*/
 
-.slider{
-	position: relative;
-	width: 100%;
-	max-width: 1100px;
-	height: 450px;
-	max-height: 450px;
-	background-color: transparent;
-	margin: 0 auto;
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    max-height: 450px;
+    background-color: transparent;
+    margin: 0 auto;
 }
 
-.slider img{
-	display: none;
-	left: 50%;
-	top: 50%;
-	transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-	position: absolute;
-	max-width: 100%;
-	max-height: 100%;
+.slider img {
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.bullets-nav{
-	position: absolute;
-	left: 50%;
-	bottom:10px;
-	width: 100%;
-	z-index: 3;
-	text-align: center;
-	transform:translateX(-50%);
-	-ms-transform:translateX(-50%);
+.bullets-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
 
-.bullets-nav span{
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	border-radius: 8px;
-	background-color: #ccc;
-	cursor: pointer;
-	margin:0 20px;
+.bullets-nav span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin: 0 20px;
 }
+
 /* ============= FIM DO SLIDER =====  */
 
 /* ===================  SERVIÇOS ===================== */
 
-.services h2{
+.services h2 {
     width: 980px;
     text-align: center;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.diferenciais{
+.diferenciais {
     display: flex;
-    flex-wrap: wrap;  /* responsivo   */
+    flex-wrap: wrap;
+    /* responsivo   */
     padding: 30px 0;
 }
 
-.dif-single{
+.dif-single {
     border-radius: 10px;
     background-color: white;
     width: 23%;
@@ -135,64 +139,64 @@ section.main{
     padding: 20px 20px;
 }
 
-.dif-single img{
+.dif-single img {
     color: #124265;
     width: 100%;
     height: auto;
 }
 
-.dif-single h2{
+.dif-single h2 {
     color: #124265;
     margin: 10px 0;
     font-size: 18px;
 }
 
-h2.agende{
+h2.agende {
     font-size: 14px;
 }
 
-.dif-single p{
+.dif-single p {
     color: #124265;
     font-size: 14px;
     line-height: 25px;
 }
 
-.dif-single a{
+.dif-single a {
     text-decoration: none;
 }
 
 
 /*  ===================== SEÇÃO SOBRE  =================    */
 
-section.sobre{
+section.sobre {
     padding: 40px 0;
     background-color: #1073d0;
 }
 
-.chamada-sobre{
+.chamada-sobre {
     width: 100%;
     text-align: center;
 }
 
 
-.chamada-sobre h2{
+.chamada-sobre h2 {
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     margin-bottom: 50px;
 }
 
-.chamada-sobre p{
+.chamada-sobre p {
     font-size: 16px;
     color: #16507b;
     margin-bottom: 30px;
 }
 
-.conteudo-sobre{
+.conteudo-sobre {
     display: flex;
     flex-wrap: wrap;
 }
 
-.conteudo-sobre p{
+.conteudo-sobre p {
     width: 48%;
     margin-right: 2%;
     color: white;
@@ -201,25 +205,25 @@ section.sobre{
     font-size: 19px;
 }
 
-.conteudo-sobre span{
+.conteudo-sobre span {
     font-weight: bold;
 }
 
-.conteudo-sobre img{
+.conteudo-sobre img {
     width: 350px;
     height: auto;
     margin-right: 25px;
-    -webkit-box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.75);
-    box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-section.cartoes{
+section.cartoes {
     width: 100%;
 }
 
-section.cartoes .cartoes-img{
-    width: 100%;                      
+section.cartoes .cartoes-img {
+    width: 100%;
     padding: 20px 20px;
     text-align: center;
 }
@@ -227,293 +231,295 @@ section.cartoes .cartoes-img{
 
 /* ====setando tamanho das imagens do slider===*/
 
-section.clientes-slider{
-	padding: 30px 0;
+section.clientes-slider {
+    padding: 30px 0;
 }
 
-section.clientes-slider img{
-	max-width: 100%;
+section.clientes-slider img {
+    max-width: 100%;
 }
 
 /*===================SLICK SLIDER=================*/
 
-.slick-dotted ul{
-	list-style-type: none;
-	text-align: center;
-	position: relative;
-	margin-top:10px;
+.slick-dotted ul {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
 }
 
-.slick-dotted li{
-	display: none;
-	margin: 0 7px;
+.slick-dotted li {
+    display: none;
+    margin: 0 7px;
 }
 
-.slick-dotted button:focus{
-	outline: 0;
+.slick-dotted button:focus {
+    outline: 0;
 }
 
-.slick-dotted li button{
-	width: 16px;
-	height: 16px;
-	border-radius: 8px;
-	color: #d8d8d8;
-	border-width: 0;
-	background: #d8d8d8;
-	opacity: 1;
-	cursor: pointer;
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
 }
 
-li.slick-active button{
-	background: #0c3f8a;
-	color: #0c3f8a;
+li.slick-active button {
+    background: #0c3f8a;
+    color: #0c3f8a;
 }
 
-.slick-slide:focus { outline: none; }
+.slick-slide:focus {
+    outline: none;
+}
 
 
 /* ================== SEÇÃO DE CONTATO ==================== */
 
-.social{
+.social {
     padding: 30px 0;
     text-align: center;
     height: 170px;
 }
 
-.social h2{
+.social h2 {
     font-size: 35px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.social a img:hover{
+.social a img:hover {
     width: 55px;
     height: 55px;
     transition: 0.4s;
 }
 
-section.contato{
-	background-color: #1073d0;
-	/*padding: 50px 0;*/
+section.contato {
+    background-color: #1073d0;
+    /*padding: 50px 0;*/
 }
 
-.container{
-	max-width: 1100px;
+.container {
+    max-width: 1100px;
     height: 980px;
-	margin:0 auto;
+    margin: 0 auto;
 }
 
-.form{
-	float: left;
-	width: 50%;
-	color: white;
-	padding-left: 50px;
+.form {
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 50px;
 }
 
-.form img{
+.form img {
     width: 450px;
     height: auto;
 }
 
-.form h2{
-	font-size: 35px;
-	font-weight: 300;
+.form h2 {
+    font-size: 35px;
+    font-weight: 300;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.form p{
-	font-size: 20px;
-	font-weight: 300;
-	max-width: 400px;
-	padding-right: 10px;
+.form p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 400px;
+    padding-right: 10px;
 }
 
-.form form{
-	margin-top: 15px;
+.form form {
+    margin-top: 15px;
 }
 
-.form form input[type=text]{
-	width: 90%;
-	max-width: 480px;
-	margin-top: 8px;
-	height: 58px;
-	padding-left: 8px;
-	line-height: 58px;
-	border: 1px solid rgb(200,200,200);
-    border-radius: 8px; 
-}
-
-.form form textarea{
-	width: 90%;
-	max-width: 480px;
-	margin-top: 8px;
-	padding: 15px;
-	border: 1px solid rgb(200,200,200);
-	height: 160px;
+.form form input[type=text] {
+    width: 90%;
+    max-width: 480px;
+    margin-top: 8px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
     border-radius: 8px;
 }
 
-.form form input[type=submit]{
-	border: 0;
-	background-color: #0c3f8a;
-	width: 165px;
-	height: 44px;
-	font-size: 16px;
-	color: white;
-	cursor: pointer;
-	margin-top: 15px;
-	border-radius: 30px;
+.form form textarea {
+    width: 90%;
+    max-width: 480px;
+    margin-top: 8px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 160px;
+    border-radius: 8px;
 }
 
-.form form input[type=submit]:hover{
+.form form input[type=submit] {
+    border: 0;
+    background-color: #0c3f8a;
+    width: 165px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.form form input[type=submit]:hover {
     background-color: white;
     color: #0c3f8a;
     transition: 0.4s;
 }
 
-.btn-agendar{
-	border: 0;
-	background-color: #0c3f8a;
-	width: 165px;
-	height: 44px;
-	font-size: 16px;
-	color: white;
-	cursor: pointer;
-	margin-top: 15px;
-	border-radius: 30px;
+.btn-agendar {
+    border: 0;
+    background-color: #0c3f8a;
+    width: 165px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
     margin-bottom: 20px;
 }
 
-.btn-agendar:hover{
+.btn-agendar:hover {
     background-color: white;
     color: #0c3f8a;
     transition: 0.4s;
 }
 
-.map-wraper{
-	float: left;
-	width: 50%;
-	padding: 0 10px;
+.map-wraper {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
 }
 
-.map-wraper h2{
-	font-size: 35px;
-	font-weight: 300;
-	color: white;
+.map-wraper h2 {
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.map-wraper p{
+.map-wraper p {
     font-size: 17px;
     color: white;
     margin-bottom: 2px;
 }
 
-.map-wraper3{
-	margin-top: 10px;
-	width: 100%;
-	max-width: 480px;
-	position: relative;
+.map-wraper3 {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
 }
 
-.map-wraper2{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	padding-top: 100%;
+.map-wraper2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
 }
 
-.map{
-	left: 0;
-	top: 0;
-	position: absolute;
-	width: 100%;
-	height: 90%;
-	background: white;
-	border: 5px solid rgb(200,200,200);
+.map {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background: white;
+    border: 5px solid rgb(200, 200, 200);
 }
 
 
 /*  ============= BOTÃO VOLTAR AO TOPO  =========== */
-#btntop{
-	position: fixed;
-	bottom: 100px;
-	right: 100px;
-	height: 50px;
-	width: 50px;
-	color: #ccc;
-	background: #0c3f8a;
-	border: none;
-	border-radius: 50vh;
-	border: 1px solid #fff;
-	scroll-behavior: smooth;
-    	cursor: pointer;
-    	font-size: 35px;
+#btntop {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+    color: #ccc;
+    background: #0c3f8a;
+    border: none;
+    border-radius: 50vh;
+    border: 1px solid #fff;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    font-size: 35px;
 }
 
-#btntop:hover{
+#btntop:hover {
     background: white;
     color: #0c3f8a;
-    transition: all 0.4s;	
+    transition: all 0.4s;
 }
 
 /*==================  SEÇÃO FOOTER 1 ==============*/
 
-footer1{
+footer1 {
     padding-top: 1.5rem;
     background: #0c3f8a;
     display: flex;
     text-align: center;
 }
 
-footer1 p{
-	color: white;
-	font-size: 18px;
+footer1 p {
+    color: white;
+    font-size: 18px;
 }
 
-footer1 .tecnico p{
+footer1 .tecnico p {
     text-align: center;
     color: white;
 }
 
 
 /*==================  SEÇÃO FOOTER  ==============*/
-footer{
+footer {
     background: #0c3f8a;
     display: flex;
 }
 
-footer p{
+footer p {
     display: flex;
-	color: white;
-	font-size: 15px;
-	font-style: italic;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
 
-footer a:hover{
+footer a:hover {
     color: #ffcc00;
 }
 
-.code-trust p{
+.code-trust p {
     align-items: center;
 }
 
 /*  ==============  CONTEÚDO RESPONSIVO ===========  */
 
-@media only screen and (max-width: 768px){
-    
-    .logo h2{
+@media only screen and (max-width: 768px) {
+
+    .logo h2 {
         font-size: 30px;
         margin-left: 20px;
     }
 
-    .slider{
+    .slider {
         display: none;
     }
 
@@ -521,136 +527,136 @@ footer a:hover{
         left: 80px;
     }
 
-    .proj-single{
+    .proj-single {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .dif-single{
+    .dif-single {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    h2.agende{
+    h2.agende {
         font-size: 21px;
     }
 
-    .conteudo-sobre{
+    .conteudo-sobre {
         width: 100%;
         margin: 10px 10px;
         align-items: center;
     }
 
-    .conteudo-sobre p{
+    .conteudo-sobre p {
         width: 100%;
         margin: 10px 10px;
     }
 
-    .conteudo-sobre img{
+    .conteudo-sobre img {
         width: 90%;
     }
 
-    .services h2{
+    .services h2 {
         width: 350px;
-	text-align: center;
+        text-align: center;
     }
 
-    .cartoes img{
+    .cartoes img {
         width: 95%;
     }
 
-    .sobre img{
-	width: 100%;
+    .sobre img {
+        width: 100%;
     }
 
-    section.videos{
-		text-align: center;
+    section.videos {
+        text-align: center;
         height: auto;
-	}
+    }
 
-	section.videos .box-video{
-		float: none;
-		width: 100%;
-		display: inline-block;
-		padding-top: calc(100% * 0.6);
-	}
+    section.videos .box-video {
+        float: none;
+        width: 100%;
+        display: inline-block;
+        padding-top: calc(100% * 0.6);
+    }
 
-    section.contato{
-		text-align: center;
-	}
+    section.contato {
+        text-align: center;
+    }
 
-    section.contato .container{
-		text-align: center;
+    section.contato .container {
+        text-align: center;
         height: 1650px;
-	}
+    }
 
-	.form{
-		float: none;
-		width: 100%;
+    .form {
+        float: none;
+        width: 100%;
         padding-left: 10px;
-	}
+    }
 
-	.form p{
-		display: inline-block;
-		float: none;
-	}
+    .form p {
+        display: inline-block;
+        float: none;
+    }
 
-	.map-wraper{
-		float: none;
-		width: 100%;
-		padding:0 8%;
-		margin-top:40px;
-	}
+    .map-wraper {
+        float: none;
+        width: 100%;
+        padding: 0 8%;
+        margin-top: 40px;
+    }
 
-	.map-wraper3{
-		margin-top:10px;
-		width: 100%;
-		padding-top: 100%;
-		display: inline-block;
-		max-width: none;
-		position: relative;
-	}
+    .map-wraper3 {
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 100%;
+        display: inline-block;
+        max-width: none;
+        position: relative;
+    }
 
-	.map-wraper2{
-		position: absolute;
-		left: 0;
-		top:0;
-		width: 100%;
-		height: 100%;
-		padding-top:0;
-	}
+    .map-wraper2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+    }
 
-    .map iframe{
+    .map iframe {
         width: 230px;
         height: 230px;
     }
 
-	section.clientes .center2{
-	    max-width: 50%;
+    section.clientes .center2 {
+        max-width: 50%;
     }
 
-    .form img{
+    .form img {
         width: 100%;
         height: auto;
     }
 
-    #btntop{
-	  right: 15px;
-      bottom: 70px;
-	}
+    #btntop {
+        right: 15px;
+        bottom: 70px;
+    }
 
-    .footer1 p{
+    .footer1 p {
         font-size: 16px;
         text-align: center;
     }
 
-    .footer p{
-	 font-size: 12px;
-      	 text-align: center;
+    .footer p {
+        font-size: 12px;
+        text-align: center;
     }
 
-    .kodak img{
+    .kodak img {
         width: 100%;
     }
-    
+
 }

@@ -1,6 +1,6 @@
 /* =========== PÁGINA NOSSAS-LENTES =========  */
 
-.center-galery{
+.center-galery {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
@@ -8,13 +8,13 @@
     flex-wrap: wrap;
 }
 
-.main-cta h2{
+.main-cta h2 {
     color: white;
     font-size: 40px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.main-cta p{
+.main-cta p {
     color: white;
     font-size: 25px;
     margin: 30px 0;
@@ -23,21 +23,22 @@
 
 /* ======= seção conteúdo ========*/
 
-.lens{
+.lens {
     display: flex;
     flex-wrap: wrap;
 }
 
-.marca{
+.marca {
     width: 30%;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.marca img{
+.marca img {
     width: 250px;
     margin-bottom: 25px;
 }
+
 
 .marca-ocup img {
     width: 80px;
@@ -45,7 +46,7 @@
     margin-bottom: 25px;
 }
 
-.ocup  img {
+.ocup img {
     width: 540px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -58,33 +59,33 @@
 }
 
 .ocup p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #124265;
 }
 
 
-.marca h2{
+.marca h2 {
     font-size: 2rem;
     color: #124265;
     margin: 20px 0 20px 0;
 }
 
-.marca h3{
+.marca h3 {
     font-size: 1.5rem;
     color: #124265;
     margin: 20px 0 20px 0;
 }
 
-.marca p{
+.marca p {
     font-size: 1rem;
     color: #124265;
 }
 
-.marca .text{
+.marca .text {
     font-size: 1.3rem;
 }
 
-.gif{
+.gif {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -92,7 +93,7 @@
     box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
 }
 
-.gif2{
+.gif2 {
     width: 200px;
     height: 200px;
     margin: 50px;
@@ -101,7 +102,7 @@
     box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
 }
 
-.video{
+.video {
     width: 70%;
     height: auto;
     text-align: center;
@@ -109,54 +110,55 @@
     padding-bottom: 3rem;
 }
 
-.video img{
+.video img {
     padding-bottom: .5rem;
 }
 
-.infos-single > .bolinha1{
+.infos-single>.bolinha1 {
     width: 255px;
     height: 255px;
     background: url(../img/optview/bolinha-defaut.png) no-repeat;
     transition: 0.5s;
 }
 
-.infos-single > .bolinha1:hover{
+.infos-single>.bolinha1:hover {
     background: url(../img/optview/bolinha-hover.png) no-repeat;
 }
 
-.infos-single > .bolinha2{
+.infos-single>.bolinha2 {
     width: 255px;
     height: 255px;
     background: url(../img/optview/Group-864.png) no-repeat;
     transition: 0.5s;
 }
 
-.infos-single > .bolinha2:hover{
+.infos-single>.bolinha2:hover {
     background: url(../img/optview/Group-865.webp) no-repeat;
 }
 
-.video h1{
+.video h1 {
     font-size: 2rem;
     color: #124265;
     margin: 2rem 0 2rem 0;
 }
 
-.video .uv{
+.video .uv {
     font-size: 1.7rem;
 }
 
-.video p{
+.video p {
     font-size: 1.2rem;
     color: #124265;
 }
 
-.infos{
+.infos {
     display: flex;
-    flex-wrap: wrap;  /* responsivo   */
+    flex-wrap: wrap;
+    /* responsivo   */
     padding: 2rem 0;
 }
 
-.infos-single{
+.infos-single {
     border-radius: 0.5rem;
     background-color: #124265;
     width: 30%;
@@ -165,42 +167,42 @@
     margin-bottom: 3%;
 }
 
-.infos-single h2{
+.infos-single h2 {
     color: white;
     margin: 0.6rem 0;
     font-size: 1.7rem;
 }
 
-.infos-single p{
+.infos-single p {
     color: white;
     font-size: 1rem;
     line-height: 1rem;
 }
 
-.sun{
+.sun {
     width: 100%;
     text-align: center;
 }
 
-.sun img{
+.sun img {
     width: 250px;
 }
 
-.sun p{
+.sun p {
     font-size: 1.3rem;
-    color: #124265; 
+    color: #124265;
 }
 
 
 /* ===== página suprema =====  */
 
-.marca-sup{
+.marca-sup {
     width: 50%;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.video-sup{
+.video-sup {
     width: 50%;
     height: auto;
     text-align: center;
@@ -208,39 +210,39 @@
     padding-bottom: 3rem;
 }
 
-.video-sup img{
+.video-sup img {
     width: 450px;
     margin-bottom: 25px;
     margin-top: 65px;
 }
 
-.video-sup h1{
+.video-sup h1 {
     font-size: 1.9rem;
     color: #124265;
     margin: 20px 0 20px 0;
 }
 
-.marca-sup img{
+.marca-sup img {
     width: 450px;
     margin-bottom: 25px;
 }
 
-.marca-sup h3{
+.marca-sup h3 {
     font-size: 1.5rem;
     color: #124265;
     margin: 20px 0 20px 0;
 }
 
-.marca-sup p{
+.marca-sup p {
     font-size: 1rem;
     color: #124265;
 }
 
-.marca-sup .text{
+.marca-sup .text {
     font-size: 1.3rem;
 }
 
-.gif-sup{
+.gif-sup {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -248,7 +250,7 @@
     box-shadow: 1px 1px 40px 0px rgb(0 0 0 / 25%);
 }
 
-.infos-single-sup{
+.infos-single-sup {
     border-radius: 0.5rem;
     background-color: #4a84c4;
     width: 45%;
@@ -260,10 +262,10 @@
 
 /* ======== RESPONSIVO ========  */
 
-@media only screen and (max-width: 768px){
-    
-    
-    .marca{
+@media only screen and (max-width: 768px) {
+
+
+    .marca {
         width: 100%;
         margin-top: 0;
         margin-bottom: 0;
@@ -271,42 +273,42 @@
         text-align: center;
     }
 
-    .marca-sup{
+    .marca-sup {
         width: 100%;
         margin-top: 0;
         margin-bottom: 0;
         padding-bottom: 0;
         text-align: center;
     }
-    
-    .marca img{
+
+    .marca img {
         width: 180px;
     }
 
-    .marca-sup img{
+    .marca-sup img {
         width: 300px;
     }
 
-    .marca .gif{
+    .marca .gif {
         width: 60%;
         text-align: center;
     }
 
-    .marca-sup .gif{
+    .marca-sup .gif {
         width: 60%;
         text-align: center;
     }
 
-    .marca > img > .tabela{
+    .marca>img>.tabela {
         width: 100%;
     }
 
-    .marca h2{
+    .marca h2 {
         text-align: center;
         font-size: 1.5rem;
     }
 
-    .marca p{
+    .marca p {
         text-align: justify;
     }
 
@@ -314,7 +316,7 @@
         width: 100%;
     }
 
-    .ocup img{
+    .ocup img {
         width: 95%;
     }
 
@@ -322,95 +324,95 @@
         text-align: center;
         font-size: 1.5rem;
     }
-    
-    .gif2{
+
+    .gif2 {
         margin: 0;
     }
 
-    .video video{
+    .video video {
         width: 100%;
     }
 
-    .video-sup img{
+    .video-sup img {
         width: 100%;
     }
-    
-    .video{
+
+    .video {
         width: 100%;
         padding-top: 0;
         padding-bottom: 0;
     }
 
-    .video-sup{
+    .video-sup {
         width: 100%;
         padding-top: 0;
         padding-bottom: 0;
     }
-    
-    .video h1{
+
+    .video h1 {
         font-size: 1rem;
         margin: 1.5rem 0;
     }
-    
-    .video p{
+
+    .video p {
         font-size: 1rem;
     }
 
-    .video img{
+    .video img {
         width: 100%;
     }
 
-    .infos{
+    .infos {
         padding: 0;
     }
-    
-    .infos-single{
+
+    .infos-single {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .infos-single-sup{
+    .infos-single-sup {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .infos-single-sup img{
+    .infos-single-sup img {
         width: 100%;
         /*margin-bottom: 20px;*/
     }
-    
-    .sun{
+
+    .sun {
         width: 100%;
         text-align: center;
     }
 
-    .sun img{
+    .sun img {
         width: 10rem;
         line-height: 100vw;
     }
-    
-    .sun p{
+
+    .sun p {
         font-size: 1.1rem;
         text-align: center;
     }
-    
-    .tratamentos{
+
+    .tratamentos {
         width: 100%;
         text-align: center;
         padding-bottom: 20px;
     }
-    
-    .tratamentos .uv{
+
+    .tratamentos .uv {
         padding-left: 0;
     }
 
-    .tratamentos .fast{
+    .tratamentos .fast {
         padding-bottom: 30px;
         padding-top: 15px;
     }
 
-    .tratamentos h2{
+    .tratamentos h2 {
         font-size: 1rem;
     }
-    
+
 }
