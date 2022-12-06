@@ -18,6 +18,10 @@
     flex-wrap: wrap;
 }
 
+.center h1 {
+    text-align: center;
+}
+
 
 .center2 {
     max-width: 1100px;
