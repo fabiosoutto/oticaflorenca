@@ -105,9 +105,8 @@
 .video {
     width: 70%;
     height: auto;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    text-align: left;
+    padding: 1rem;
 }
 
 .video img {
@@ -405,12 +404,12 @@
     }
 
     .video h1 {
-        font-size: 1rem;
+        font-size: 1.7rem;
         margin: 1.5rem 0;
     }
 
     .video p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .video img {
